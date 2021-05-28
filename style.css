@@ -1,0 +1,117 @@
+body {
+	background-color: #f0e66b;
+	color: #2aaae1;
+	font-weight: bold;
+}
+
+.navbar {
+	background-color: #e8269d;
+	width: 100%;
+	overflow: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1em;
+
+}
+
+h2 {
+	color: #ee09f6;
+	font-weight: bold;
+	text-align: center;
+}
+
+.home{
+	align: left;
+	padding: 2em;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.hover-rotate: {
+	transition: transform 2s ease-in-out;
+}
+
+.hover-rotate:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 2s ease-in-out 0s;
+}
+
+
+@keyframes bounce { 
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50px); }
+}
+
+.hover-bounce:hover {
+  animation: bounce .7s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.menuitem {
+	width: 50%;
+	float: left;
+	padding: 2em;
+	
+}
+
+.menu {
+	color: #353c46;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.columns {
+	column-count: 2;
+	column-gap: 3em;
+}
+
+.countdown {
+	background-color: #e8269d;
+	width: 100%;
+	overflow: auto;
+	font-weight: bold;
+	align-items: center;
+	margin-top: 1em;
+	text-align: center;
+}
+
+ #clockdiv{
+    font-family: sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #f0e66b;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #2aaae1;
+    display: inline-block;
+}
+.calendartext{
+    padding-top: 5px;
+    font-size: 16px;	    
+	color: #e8269d;
+	font-weight: bold;
+}
