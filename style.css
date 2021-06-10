@@ -12,11 +12,9 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 1em;
-
 }
 
 h2 {
-	color: #ee09f6;
 	font-weight: bold;
 	text-align: center;
 }
@@ -32,6 +30,9 @@ h2 {
 	margin-right: auto;
 }
 
+.unicorn {
+	padding-top: 2em;
+}
 
 .hover-rotate: {
 	transition: transform 2s ease-in-out;
@@ -45,19 +46,19 @@ h2 {
 
 
 @keyframes bounce { 
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-50px); }
+	0% { transform: translateY(0); }
+	100% { transform: translateY(-50px); }
 }
 
 .hover-bounce:hover {
-  animation: bounce .7s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
+	animation: bounce .7s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
 }
 
 .responsive {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 
@@ -65,13 +66,30 @@ h2 {
 	width: 50%;
 	float: left;
 	padding: 2em;
-	
+	color: black;
 }
 
 .menu {
-	color: #353c46;
 	padding-top: 2em;
 	padding-bottom: 1em;
+	color: black;
+	background-color: #ee09f6;
+}
+
+.locationitem {
+	width: 50%;
+	float: left;
+	padding: 2em;
+	color: black;
+}
+
+.location {
+	color: black;
+	background-color: #2aaae1;
+}
+
+h2.locationitem {
+	color: black
 }
 
 .columns {
@@ -85,7 +103,6 @@ h2 {
 	overflow: auto;
 	font-weight: bold;
 	align-items: center;
-	margin-top: 1em;
 	text-align: center;
 }
 
@@ -96,6 +113,7 @@ h2 {
     font-weight: bold;
     text-align: center;
     font-size: 30px;
+	padding-bottom: 3em;
 }
 #clockdiv > div{
     padding: 10px;
