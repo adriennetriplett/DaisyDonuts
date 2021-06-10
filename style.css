@@ -61,12 +61,15 @@ h2 {
 	height: auto;
 }
 
+.itempic {
+	border-radius: 0.5em;
+}
 
 .menuitem {
 	width: 50%;
 	float: left;
 	padding: 2em;
-	color: black;
+	color: white;
 }
 
 .menu {
@@ -74,6 +77,7 @@ h2 {
 	padding-bottom: 1em;
 	color: black;
 	background-color: #ee09f6;
+    border-radius: 0.5em;
 }
 
 .locationitem {
@@ -85,6 +89,7 @@ h2 {
 
 .location {
 	color: black;
+    border-radius: 0.5em;
 	background-color: #2aaae1;
 }
 
@@ -106,7 +111,7 @@ h2.locationitem {
 	text-align: center;
 }
 
- #clockdiv{
+ #clockdiv {
     font-family: sans-serif;
     color: #ffffff;
     display: inline-block;
@@ -115,21 +120,31 @@ h2.locationitem {
     font-size: 30px;
 	padding-bottom: 3em;
 }
-#clockdiv > div{
+
+#clockdiv > div {
     padding: 10px;
     border-radius: 3px;
     background: #f0e66b;
     display: inline-block;
+	box-shadow: 0 8px 8px 0 rgba(24, 24, 28, 0.5);
 }
-#clockdiv div > span{
+
+#clockdiv div > span {
     padding: 15px;
     border-radius: 3px;
     background: #2aaae1;
     display: inline-block;
 }
-.calendartext{
+
+.calendartext {
     padding-top: 5px;
     font-size: 16px;	    
 	color: #e8269d;
 	font-weight: bold;
+}
+
+.countdown-end {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
 }
